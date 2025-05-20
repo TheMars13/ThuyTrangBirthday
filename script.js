@@ -23,7 +23,7 @@ function createConfetti() {
         container.appendChild(confetti);
 
         // Remove after animation
-        setTimeout(() => confetti.remove(), 5000);
+        setTimeout(() => confetti.remove(), 10000);
     }
 }
 
